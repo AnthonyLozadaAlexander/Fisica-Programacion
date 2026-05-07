@@ -13,6 +13,7 @@ posicion = posicion_inicial + (velocidad_inicial * t) + 1/2 * (aceleracion*(1**2
 
 plt.plot(t, color = "red", linewidth = 2)
 plt.tittle("Simulacion MRUA: Aumento VVelerado")
-plt.xlabel = "tiempo y segundos)")
-plt.ylabel = "Posicion (Metros)")
-plt.grid(Tr
+plt.xlabel = "tiempo y segundos)"
+plt.ylabel = "Posicion (Metros)"
+plt.grid(True)
+plt.show()
